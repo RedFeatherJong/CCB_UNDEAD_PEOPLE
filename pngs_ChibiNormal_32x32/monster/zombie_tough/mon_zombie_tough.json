@@ -1,0 +1,15 @@
+{
+  "id": "mon_zombie_tough",
+  "fg": [
+    { "weight": 1, "sprite": "mon_zombie_tough" },
+    { "weight": 1, "sprite": "mon_zombie_tough_1" },
+    { "weight": 1, "sprite": "mon_zombie_tough_2" },
+    { "weight": 1, "sprite": "mon_zombie_tough_3" },
+    { "weight": 1, "sprite": "mon_zombie_tough_4" },
+    { "weight": 1, "sprite": "mon_zombie_tough_5" },
+    { "weight": 1, "sprite": "mon_zombie_tough_6" },
+    { "weight": 1, "sprite": "mon_zombie_tough_7" }
+  ],
+  "bg": ["shadow_32x32_normal"],
+  "rotates": false
+}

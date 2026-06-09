@@ -1,0 +1,15 @@
+{
+  "id": "mon_zombie_fat",
+  "fg": [
+    { "weight": 1, "sprite": "mon_zombie_fat" },
+    { "weight": 1, "sprite": "mon_zombie_fat_1" },
+    { "weight": 1, "sprite": "mon_zombie_fat_2" },
+    { "weight": 1, "sprite": "mon_zombie_fat_3" },
+    { "weight": 1, "sprite": "mon_zombie_fat_4" },
+    { "weight": 1, "sprite": "mon_zombie_fat_5" },
+    { "weight": 1, "sprite": "mon_zombie_fat_6" },
+    { "weight": 1, "sprite": "mon_zombie_fat_7" }
+  ],
+  "bg": ["shadow_32x32_normal"],
+  "rotates": false
+}

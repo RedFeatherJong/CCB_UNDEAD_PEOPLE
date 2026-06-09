@@ -1,0 +1,13 @@
+[
+  {
+    "id": "t_window_empty",
+    "fg": [ "t_window_empty" ],
+    "bg": [ "t_floor" ],
+    "rotates": false
+  },
+  {
+    "id": "t_skylight_frame",
+    "fg": "t_window_empty",
+    "bg": "t_open_air"
+  }
+]

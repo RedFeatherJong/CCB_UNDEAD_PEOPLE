@@ -1,0 +1,5 @@
+# compose 产物(由 CI 生成,不入库)
+/gfx/
+*.zip
+__pycache__/
+*.pyc
