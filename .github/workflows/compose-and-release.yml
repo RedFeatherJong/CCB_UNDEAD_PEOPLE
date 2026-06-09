@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   compose:
-    name: Compose Chibi_Ultica tileset
+    name: Compose CCB_UNDEAD_PEOPLE tileset
     runs-on: ubuntu-latest
     steps:
       - name: Checkout tileset source
@@ -30,7 +30,7 @@ jobs:
           export SOURCE="${{ github.workspace }}"
           export DEST="${{ github.workspace }}/gfx/UNDEAD_PEOPLE"
           mkdir -p "$DEST"
-          # --use-all 与官方 ChibiUltica compose 参数保持一致
+          # --use-all 与官方 ChibiUltica compose 参数保持一致(本贴图源自 Chibi_Ultica)
           python3 tools/gfx_tools/compose.py --use-all --feedback CONCISE --format-json --loglevel INFO "$SOURCE" "$DEST"
           # 复制游戏运行所需的元文件
           cp -v "$SOURCE/tileset.txt" "$DEST/"
@@ -54,13 +54,13 @@ jobs:
 
       - name: Compute release tag
         id: tag
-        run: echo "tag=chibi-$(date +%Y%m%d)-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+        run: echo "tag=undead-$(date +%Y%m%d)-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
 
       - name: Publish release
         if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.tag.outputs.tag }}
-          name: Chibi_Ultica ${{ steps.tag.outputs.tag }}
-          files: CCB-ChibiUltica.zip
+          name: CCB_UNDEAD_PEOPLE ${{ steps.tag.outputs.tag }}
+          files: CCB_UNDEAD_PEOPLE.zip
           generate_release_notes: true
