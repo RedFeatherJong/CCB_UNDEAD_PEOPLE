@@ -1,0 +1,12 @@
+{
+  "id": "vp_modular_m4_carbine_var_m4a1",
+  "fg": "vp_m4a1",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_m4a1_broken"
+    }
+  ]
+}

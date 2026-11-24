@@ -1,0 +1,5 @@
+{
+  "id": "wearable_big_light",
+  "fg": "overlay_wielded_wearable_atomic_light",
+  "rotates": false
+}

@@ -1,0 +1,12 @@
+{
+  "id": "vp_aksemi",
+  "fg": "vp_draco",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_draco_broken"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "vp_modular_m16_auto_rifle_var_acr",
+  "fg": "vp_acr",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_acr_broken"
+    }
+  ]
+}

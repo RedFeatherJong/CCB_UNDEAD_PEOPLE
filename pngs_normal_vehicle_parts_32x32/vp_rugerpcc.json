@@ -1,0 +1,12 @@
+{
+  "id": "vp_rugerpcc",
+  "fg": "vp_calico",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_calico_broken"
+    }
+  ]
+}

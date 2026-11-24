@@ -1,0 +1,12 @@
+{
+  "id": "vp_sig_assault_rifle",
+  "fg": "vp_hk_g36",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_hk_g36_broken"
+    }
+  ]
+}

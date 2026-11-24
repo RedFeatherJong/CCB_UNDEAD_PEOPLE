@@ -1,0 +1,12 @@
+{
+  "id": "vp_fn_fal_semi",
+  "fg": "vp_fn_fal",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_fn_fal_broken"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "vp_m9",
+  "fg": "vp_cx4",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_cx4_broken"
+    }
+  ]
+}

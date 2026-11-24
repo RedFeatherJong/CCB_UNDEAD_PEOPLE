@@ -1,0 +1,12 @@
+{
+  "id": "vp_remington_700_308",
+  "fg": "vp_savage_111f",
+  "rotates": true,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "broken",
+      "fg": "vp_savage_111f_broken"
+    }
+  ]
+}
